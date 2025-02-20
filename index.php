@@ -12,7 +12,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 }
 
-include "core/autoload.php";
+use Shop\Vegetable\Tomato
 
 ob_start();
 session_start();
